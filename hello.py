@@ -31,7 +31,7 @@ def get_text():
 user_input = get_text()
 
 if user_input:
-	output = ['generated_text': 'hello']
+	output = {'generated_text': 'hello'}
 #     output = query({
 #         "inputs": {
 #             "past_user_inputs": st.session_state.past,
